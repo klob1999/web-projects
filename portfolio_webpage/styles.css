@@ -57,9 +57,9 @@ body {
     background:#1e2a3a;
     padding: 80px 20px;
     display: flex;
-    flex-direction: column;   /* ✅ STACKS them */
-    align-items: center;      /* keeps them centered */
-    gap: 30px;                /* space between cards */
+    flex-direction: column;   
+    align-items: center;      
+    gap: 30px;                
 }
 
 .code-card {
@@ -135,8 +135,8 @@ section {
 .notes-container {
      width: 100%;
     display: flex;
-    justify-content: center;   /* 🔥 centers horizontally */
-    align-items: center;       /* optional */
+    justify-content: center;   
+    align-items: center;       
     padding: 80px 20px;
 }
 .notes {
@@ -144,11 +144,11 @@ section {
     width: 100%;
     margin: 0 auto;
 
-    background: #1e2a3a;        /* 🔥 bubble background */
+    background: #1e2a3a;        
     padding: 40px;
-    border-radius: 20px;        /* 🔥 rounded corners */
+    border-radius: 20px;        
 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4); /* 🔥 depth */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4); 
 }
 
 .notes h2 {
