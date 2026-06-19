@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<head>
+<meta charset=""UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>Beautiful Portfolio</title>
+</head>
+<body>
+
+<!--Hero Banner-->
+<header class="hero">
+<div class="hero-content">
+<h1>Kaitlin O'Brien</h1>
+<p>Building Beautiful Websites with HTML5 and CSS3</p>
+<div class="hero-buttons">
+<a href="#" class="btn-primary">View My Work</a>
+<a href="#" class="btn-secondary">Get in Touch</a>
+</div>
+</div>
+</header>
+
+<!--Body Content-->
+<section class="code-section">
+<div class="code-card">
+<h2>Basic HTML Structure</h2>
+<p>Here's the basic HTML page structure that this webpage uses:</p>
+
+<pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;title&gt;Beautiful Portfolio&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!--Hero Banner--&gt;
+&lt;header class="hero"&gt;
+&lt;div class="hero-content"&gt;
+&lt;h1&gt;Kaitlin O'Brien&lt;/h1&gt;
+&lt;p&gt;Building Beautiful Websites with HTML5 and CSS3&lt;/p&gt;
+&lt;div class="hero-buttons"&gt;
+&lt;a href="#" class="btn-primary"&gt;View My Work&lt;/a&gt;
+&lt;a href="#" class="btn-secondary"&gt;Get in Touch&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+
+&lt;!--Body Content--&gt;
+&lt;section class="code-section"&gt;
+&lt;div class="code-card"&gt;
+&lt;h2&gt;Basic HTML Structure&lt;/h2&gt;
+&lt;p&gt;Here's the basic HTML page structure that this webpage uses:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class="second-code-card"&gt;
+&lt;h2&gt;Basic CSS Structure&lt;/h2&gt;
+&lt;p&gt;And here is the CSS that goes with it:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+/* HERO Background */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle at center, #0f2027, #0a192f, #020c1b);
+    color: white;
+    max-width: auto;
+    padding: 124px;
+}
+
+/* CONTENT */
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #00ff88, #aaff00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:var(-webkit-background-clip);
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+}
+
+.hero-content p{
+    font-size: 20px;
+    color: #b0bec5;
+    margin-top: 10px;
+}
+
+/*Buttons*/
+.hero-buttons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #00ff88, #aaff00);
+    color: black;
+    text-decoration: none;
+    padding: 12px 28px;
+}
+
+.btn-secondary {
+    background: linear-gradient(90deg, #00ff88, #aaff00);
+    color: black;
+    text-decoration: none;
+    padding: 12px 28px;
+}
+
+.code-section {
+    background:#1e2a3a;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.code-card {
+    background: #1e2a3a;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.code-card h2 {
+    color: #00ff88;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+.code-card p {
+    color: #cfd8dc;
+    margin-bottom: 25px;
+}
+
+/*CODE BLOCK*/
+pre{ 
+    background: #020c1b;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    max-height: 300px;
+    overflow: auto;
+}
+
+/*CODE TEXT*/
+code {
+    color: #e6edf3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.second-code-card {
+    background: #1e2a3a;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.second-code-card h2 {
+    color: #00ff88;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+.second-code-card p {
+    color: #cfd8dc;
+    margin-bottom: 25px;
+}
+
+.second-code-card code{
+    color: #e6edf3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.6;
+}
+&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class="notes-container"&gt;
+&lt;div class="notes"&gt;
+&lt;h2&gt;Learning Notes&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;HTML provides the structure and content of the page&lt;/li&gt;
+    &lt;li&gt;CSS makes it look beautiful with colors, spacing, and layouts&lt;/li&gt;
+    &lt;li&gt;Use semantic HTML tags like header, section, footer for better accessibility&lt;/li&gt;
+    &lt;li&gt;Flexbox and Grid are your best friends for layouts&lt;/li&gt;
+    &lt;li&gt;Media queries make your site responsive on different devices&lt;/li&gt;
+    &lt;li&gt;Keep practicing and building more projects to master HTML and CSS!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;main&gt;
+
+&lt;section class="projects"&gt;
+&lt;div class="projects-container"&gt;
+
+&lt;h2&gt;My Projects&lt;/h2&gt;
+&lt;p class="subtitle"&gt;Practice projects I've built while learning&lt;/p&gt;
+
+&lt;div class="project-grid"&gt;
+
+&lt;div class="project-card"&gt;
+&lt;img src="../portfolio-website/assets/iqsphotography-cat-7954262_640.jpg" alt="Portfolio Page"&gt;
+&lt;div class="project-content"&gt;
+&lt;h3&gt;Portfolio Page&lt;/h3&gt;
+&lt;p&gt;A modern portfolio built with HTML and CSS featuring responsive design&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="project-card"&gt;
+&lt;img src="../event-hub-webpage/index.html" alt="Events Hub"&gt;
+&lt;div class="project-content"&gt;
+&lt;h3&gt;Events Hub Webpage&lt;/h3&gt;
+&lt;p&gt;A clean and simple using HTML, CSS, and basic layout techniques with flexbox and grid.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="project-card"&gt;
+&lt;img src="../recipe-webpage/step5enjoy.webp" alt="Pumpkin Pie Recipe Page"&gt;
+&lt;div class="project-content"&gt;
+&lt;h3&gt;Pumpkin Pie Recipe&lt;/h3&gt;
+&lt;p&gt;A delicious pumpkin pie recipe built with HTML and CSS.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class="skills"&gt;
+&lt;div class="skills-container"&gt;
+
+&lt;h2&gt;My Skills&lt;/h2&gt;
+&lt;p class="skills-subtitle"&gt;What I know and what I'm learning&lt;/p&gt;
+
+&lt;div class="skills-grid"&gt;
+
+&lt;div class="skill-card"&gt;
+&lt;div class="icon"&gt;💻&lt;/div&gt;
+&lt;h3&gt;HTML5&lt;/h3&gt;
+&lt;p&gt;Semantic HTML, Forms, Accessibility, SEO basics&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="skill-card"&gt;
+&lt;div class="icon"&gt;🎨&lt;/div&gt;
+&lt;h3&gt;CSS3&lt;/h3&gt;
+&lt;p&gt;Flexbox, Grid, Animations, Transitions, Selectors&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="skill-card"&gt;
+&lt;div class="icon"&gt;📱&lt;/div&gt;
+&lt;h3&gt;Responsive Design&lt;/h3&gt;
+&lt;p&gt;Mobile-first approach, Media queries, Breakpoints&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="skill-card"&gt;
+&lt;div class="icon"&gt;⚡&lt;/div&gt;
+&lt;h3&gt;Currently Learning&lt;/h3&gt;
+&lt;p&gt;JavaScript basics, Git &amp; GitHub, VS Code&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="skill-card"&gt;
+&lt;div class="icon"&gt;🌐&lt;/div&gt;
+&lt;h3&gt;Web Design&lt;/h3&gt;
+&lt;p&gt;Color theory, Typography, Layout principles&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="skill-card"&gt;
+&lt;div class="icon"&gt;🗄️&lt;/div&gt;
+&lt;h3&gt;Tools &amp; Workflow&lt;/h3&gt;
+&lt;p&gt;Chrome DevTools, GitHub Pages, Figma basics&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class="contact"&gt;
+&lt;div class="contact-container"&gt;
+
+&lt;h2&gt;Let's Connect&lt;/h2&gt;
+&lt;p class="contact-text"&gt;
+I'm looking for opportunities to learn and grow as a web developer.
+Feel free to reach out!
+&lt;/p&gt;
+
+&lt;a href="mailto:your@email.com" class="contact-btn"&gt;
+Send Me an Email
+&lt;/a&gt;
+
+&lt;div class="social-icons"&gt;
+&lt;a href="#"&gt;&lt;span&gt;🐱&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;span&gt;💼&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;span&gt;🐦&lt;/span&gt;&lt;/a&gt;
+&lt;a href="mailto:your@email.com"&gt;&lt;span&gt;✉️&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;p class="footer-text"&gt;
+© 2026 Kaitlin O'Brien | Built with HTML &amp; CSS
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;footer&gt;
+&lt;a href="https://www.linkedin.com/in/kaitlin-o-3649b63b8/" target="_blank" class="btn-linkedin"&gt;Connect on LinkedIn&lt;/a&gt;
+&lt;br&gt;
+&lt;/footer&gt;
+
+&lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+    </pre>
+</div>
+<div class="second-code-card">
+<h2> Basic CSS Structure</h2>
+<p>And here is the CSS that goes with it:</p>
+<pre>
+<code>
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+/* HERO Background */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle at center, #0f2027, #0a192f, #020c1b);
+    color: white;
+    max-width: auto;
+    padding: 124px;
+}
+
+/* CONTENT */
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #00ff88, #aaff00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:var(-webkit-background-clip);
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+}
+
+.hero-content p{
+    font-size: 20px;
+    color: #b0bec5;
+    margin-top: 10px;
+}
+
+/*Buttons*/
+.hero-buttons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #00ff88, #aaff00);
+    color: black;
+    text-decoration: none;
+    padding: 12px 28px;
+}
+
+.btn-secondary {
+    background: linear-gradient(90deg, #00ff88, #aaff00);
+    color: black;
+    text-decoration: none;
+    padding: 12px 28px;
+}
+
+.code-section {
+    background:#1e2a3a;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;   /* ✅ STACKS them */
+    align-items: center;      /* keeps them centered */
+    gap: 30px;                /* space between cards */
+}
+
+.code-card {
+    background: #1e2a3a;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+
+}
+
+.code-card h2 {
+    color: #00ff88;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+.code-card p {
+    color: #cfd8dc;
+    margin-bottom: 25px;
+}
+
+/*CODE BLOCK*/
+
+pre{ 
+    background: #020c1b;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    max-height: 300px;
+    overflow: auto;
+}
+
+/*CODE TEXT*/
+code {
+    color: #e6edf3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.second-code-card {
+    background: #1e2a3a;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.second-code-card h2 {
+    color: #00ff88;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+.second-code-card p {
+    color: #cfd8dc;
+    margin-bottom: 25px;
+}
+
+.second-code-card code{
+    color: #e6edf3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.6;
+}
+</code>
+</pre>
+</div>
+</section>
+<section class="notes-container">
+<div class="notes">
+<h2>Learning Notes</h2>
+<p>
+<ul>
+    <li>HTML provides the structure and content of the page</li>
+    <li>CSS makes it look beautiful with colors, spacing, and layouts</li>
+    <li>Use semantic HTLM tags like header, section, footer for better accessibility</li>
+    <li>Flexbox and Grid are your best friends for layouts</li>
+    <li>Media queries make your site responsive on different devices</li>
+    <li>Keep practicing and building more projects to master HTML and CSS!</li>
+</ul>
+</p>
+</div>
+</section>
+<main>
+<section class="projects">
+  <div class="projects-container">
+    
+    <h2>My Projects</h2>
+    <p class="subtitle">Practice projects I've built while learning</p>
+
+    <div class="project-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="../portfolio-website/assets/iqsphotography-cat-7954262_640.jpg" alt="Portfolio Page">
+        <div class="project-content">
+          <h3>Portfolio Page</h3>
+          <p>A modern portfolio built with HTML and CSS featuring responsive design</p>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="../event-hub-webpage/index.html" alt="Events Hub">
+        <div class="project-content">
+          <h3>Events Hub Webpage</h3>
+          <p>A clean and simple  using HTML, CSS, and basic layout techniques with flexbox and grid.</p>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="../recipe-webpage/step5enjoy.webp" alt="Pumpkin Pie Recipe Page">
+        <div class="project-content">
+          <h3>Pumpkin Pie Recipe</h3>
+          <p>A delicious pumpkin pie recipe built with HTML and CSS.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="skills">
+  <div class="skills-container">
+
+    <h2>My Skills</h2>
+    <p class="skills-subtitle">What I know and what I'm learning</p>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="icon">💻</div>
+        <h3>HTML5</h3>
+        <p>Semantic HTML, Forms, Accessibility, SEO Basics</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="icon">🎨</div>
+        <h3>CSS3</h3>
+        <p>Flexbox, Grid, and Div</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="icon">📱</div>
+        <h3>Responsive Design</h3>
+        <p>Mobile-first approach, Media queries, Breakpoints</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="icon">⚡</div>
+        <h3>Currently Learning</h3>
+        <p>GitHub, Phoenix Code, and VS Code</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="icon">🌐</div>
+        <h3>Web Design</h3>
+        <p>Color theory, Typography, Layout principles</p>
+      </div>
+
+      <div class="skill-card">
+        <div class="icon">🗄️</div>
+        <h3>Tools & Workflow</h3>
+        <p>Chrome DevTools, GitHub Pages, Figma Basics</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="contact">
+  <div class="contact-container">
+
+    <h2>Let's Connect</h2>
+    <p class="contact-text">
+      I'm looking for opportunities to learn and grow as a web developer.
+      Feel free to reach out!
+    </p>
+
+    <a href="mailto:your@email.com" class="contact-btn">
+      Send Me an Email
+    </a>
+
+    <div class="social-icons">
+      <a href="#"><span>🐱</span></a>
+      <a href="#"><span>💼</span></a>
+      <a href="#"><span>🐦</span></a>
+      <a href="mailto:your@email.com"><span>✉️</span></a>
+    </div>
+
+    <hr>
+
+    <p class="footer-text">
+      © 2026 Kaitlin O'Brien | Built with HTML & CSS
+    </p>
+
+  </div>
+</section>
+
+<footer>
+<a href="https://www.linkedin.com/in/kaitlin-o-3649b63b8/" target="_blank" class="btn-linkedin">Connect on LinkedIn</a>
+<br>
+</footer>
+</main>
+</body>
+</html>
